@@ -1,21 +1,62 @@
-
 body {
-    background-color: lightgray;
-    font-family: Arial;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
 }
 
-form {
-    background-color: white;
+.container {
+    width: 400px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
     padding: 10px;
-    width: 300px;
-    border: 1px solid black;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
 }
 
 input, select, textarea {
     width: 100%;
+    padding: 5px;
     margin-top: 5px;
 }
 
-h2 {
-    color: black;
+.inline {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
 }
